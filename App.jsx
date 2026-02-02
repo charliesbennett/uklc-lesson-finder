@@ -573,7 +573,7 @@ function LessonModal({ lesson, weeks, programmes, levels, commonTags, onSave, on
     });
   };
 
-  const handlePdfPathChange = (value) => {
+  const handlepdfPathChange = (value) => {
     setFormData({...formData, pdfpath: value});
     
     if (value && !value.includes('sharepoint.com') && !value.includes('sharepoint://')) {
